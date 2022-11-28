@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.9"],\
             ["eslint", "npm:8.27.0"],\
             ["eslint-config-next", "virtual:7d10b905e9bbf87030b717b6bbd8b837e13b804e99ac4ceb44466818221cf42781faaed6d9965748ae8292949c38bc4d1177c39850c6ff487a9a24819b042694#npm:13.0.4"],\
+            ["husky", "npm:8.0.2"],\
             ["next", "virtual:7d10b905e9bbf87030b717b6bbd8b837e13b804e99ac4ceb44466818221cf42781faaed6d9965748ae8292949c38bc4d1177c39850c6ff487a9a24819b042694#npm:13.0.4"],\
             ["prettier", "npm:2.8.0"],\
             ["react", "npm:18.2.0"],\
@@ -2168,6 +2169,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["husky", [\
+        ["npm:8.0.2", {\
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.2-46c70b41ed-e101656fcb.zip/node_modules/husky/",\
+          "packageDependencies": [\
+            ["husky", "npm:8.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ignore", [\
         ["npm:5.2.0", {\
           "packageLocation": "./.yarn/cache/ignore-npm-5.2.0-fc4b58a4f3-6b1f926792.zip/node_modules/ignore/",\
@@ -2530,6 +2540,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.9"],\
             ["eslint", "npm:8.27.0"],\
             ["eslint-config-next", "virtual:7d10b905e9bbf87030b717b6bbd8b837e13b804e99ac4ceb44466818221cf42781faaed6d9965748ae8292949c38bc4d1177c39850c6ff487a9a24819b042694#npm:13.0.4"],\
+            ["husky", "npm:8.0.2"],\
             ["next", "virtual:7d10b905e9bbf87030b717b6bbd8b837e13b804e99ac4ceb44466818221cf42781faaed6d9965748ae8292949c38bc4d1177c39850c6ff487a9a24819b042694#npm:13.0.4"],\
             ["prettier", "npm:2.8.0"],\
             ["react", "npm:18.2.0"],\
