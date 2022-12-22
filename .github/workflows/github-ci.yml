@@ -1,12 +1,19 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: Learn NextJs
+run-name: Learn NextJs CI/CD
 on: [push]
 jobs:
   Development:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/development' }}
     steps:
-      - run: echo "STG"
+      - name: Set up Node.js
+        uses: actions/setup-node@master
+          with:
+            node-version: 16.14.x
+      - name: Install Library
+        run: yarn
+      - name: build
+        run: yarn build
   Production:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/production' }}
