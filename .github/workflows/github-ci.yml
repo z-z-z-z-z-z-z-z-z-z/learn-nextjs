@@ -15,11 +15,11 @@ jobs:
           node-version: 16.x
 
       - name: Run install
-        run yarn install
+        run: yarn install
 
       - name: build Development
-        run yarn build
-        
+        run: yarn build
+
   Production:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/production' }}
