@@ -6,6 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/development' }}
     steps:
+      - name: Set up CheckOut
+        uses: actions/checkout@v3
+
+      - name: location
+        run: ls
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
