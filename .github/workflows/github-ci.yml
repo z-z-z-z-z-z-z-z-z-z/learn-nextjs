@@ -24,8 +24,8 @@ jobs:
       - name: Run install
         run: yarn install
 
-      - name: build Development
-        run: yarn build
+      - name: Run Deploy
+        run: yarn deploy
 
   Production:
     runs-on: ubuntu-latest
